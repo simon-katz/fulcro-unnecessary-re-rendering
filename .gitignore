@@ -1,0 +1,15 @@
+/.cpcache/
+/.shadow-cljs/
+/checkouts/
+/node_modules/
+/resources/public/js/
+/src/gen/
+/target/
+
+*.iml
+*.jar
+*.log
+.lein-*
+.nrepl-*
+pom.xml
+pom.xml.asc

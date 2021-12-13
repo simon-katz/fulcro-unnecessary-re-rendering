@@ -1,0 +1,18 @@
+;; 3.5.9-RC1      -- bad
+;; 3.5.8          -- bad
+;; 3.5.1          -- bad
+;; 3.3.1          -- bad
+;; 3.2.2          -- bad
+;; 3.2.1-RC5      -- good
+;; 3.2.1-RC3      -- good
+;; 3.1.22         -- good
+;; 3.1.20         -- good
+;; 3.1.18         -- good
+;; 3.1.13         -- good
+;; 3.1.1          -- good
+
+{:deps    {com.fulcrologic/fulcro {:mvn/version "3.5.9-RC1"}}
+
+ :aliases {:dev {:extra-deps {;; org.clojure/clojurescript   {:mvn/version "1.10.520"}
+                              thheller/shadow-cljs        {:mvn/version "2.16.8"}
+                              binaryage/devtools          {:mvn/version "1.0.4"}}}}}
